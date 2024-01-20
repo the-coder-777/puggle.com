@@ -1,0 +1,91 @@
+
+h1 {
+  font-family: monospace;
+  font-size: 3em;
+  animation: color-change-2 5s infinite;
+}
+
+a {
+  font-family: monospace;
+  animation: color-change 1s infinite;
+  font-size: 3em;
+}
+
+@keyframes color-change {
+  33% { color: purple; }
+  33% { color: blue; }
+  64% { color: red; }
+  
+}
+
+@keyframes color-change-2 {
+  45% { color: green; }
+  45% { color: blue; }
+  10% { color: red; }
+  
+}
+
+</style>  
+<div style="width: 100%; text-align: center">
+<span id="head" style="font-family: Trebuchet MS; font-size:30px;">Puggle (my cat)</span>
+</div>
+
+<style>
+button{
+  font-family: monospace;
+  animation: color-change 1s infinite;
+  background-color: lime;
+  outline-color: chocolate; 
+}
+
+
+button{
+  font-family: monospace;
+  animation: color-change 1s infinite;
+  background-color: lime;
+  outline-color: chocolate; 
+}
+
+#video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        #video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 75%;
+        }
+
+#video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+#image {
+			display: none;
+		}
+.button {
+  background-color: none;
+  border: 3px, solid purple;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  border-radius: 8px;
+}
